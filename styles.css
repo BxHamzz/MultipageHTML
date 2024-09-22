@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Make the headings larger */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Center both the list items and the bullet/number markers */
+ul, ol {
+    list-style-position: inside; /* markers are inside */
+    text-align: center; /* Center the text */
+    padding-left: 0; /* Remove left padding for the list */
+    margin: 0 auto; /* Center the list block itself */
+    width: fit-content; /* Adjust width to fit the content */
+}
+
+/* Style the table and make the images medium-sized */
+table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    width: 80%; /* Adjust table width */
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Adjust the image size */
+table img {
+    width: 200px; /* Medium size for images */
+    height: auto; /* Keep aspect ratio */
+}
